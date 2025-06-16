@@ -32,14 +32,14 @@ A database with info on taxi rides in Chicago:
 The Databse Scheme:
 <img src="https://github.com/vandanadhakal/Zubers-Chicago-Ride-Sharing/blob/main/Table%20Scheme.png">
 
-## Process
+### Process
 This project was developed using PostgreSQL and involved the use of **JOINs**, **subqueries**, **CASE statements**, and other essential SQL clauses.
 
 The analysis began by identifying the most popular taxi companies and calculating the total number of trips they provided during a representative week. To achieve this, the **Cabs** table was left joined with the **Trips** table to determine the total ride count for each cab company.
 
 The second part of the project explored the **impact of weather on ride volume** from the Loop neighborhood to O’Hare International Airport. Specifically, it compared the number of rides taken on **rainy and stormy Saturdays** versus more favorable weather. For this, the **Weather_Records** table was joined with the **Trips** table to capture weather conditions and classify them as either *“Good”* or *“Bad"*. Ride data for trips from the Loop to O’Hare on Saturdays was then extracted and analyzed in the context of these weather categories. Further, the total count of Good to Bad weather condition rides was determined.
 
-## Conclusions
+### Conclusions
 1. Flash Cab and Taxi Affiliation Services emerged as the two most popular taxi companies.
 
 2. Together, they accounted for 23% of the total rides during the representative week analyzed.
@@ -50,10 +50,10 @@ The second part of the project explored the **impact of weather on ride volume**
 
 5. Offering promotions or discounts during inclement weather could be an effective strategy to increase ride volume for taxi companies.
 
-## Assumption
+### Assumption
 1. A representative time frame was selected to analyze and identify the top-performing taxi companies, with the assumption that this period is reflective of overall trends in the full dataset.
 
-2. Rain and storm conditions were classified as “Bad” weather, while all other weather conditions were categorized as “Good.”
+2. Rain and storm conditions were classified as *“Bad”* weather, while all other weather conditions were categorized as *“Good”*.
 
 
 
