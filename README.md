@@ -4,7 +4,7 @@ Analyzed ride-sharing data from Zuber to uncover passenger preferences and asses
 <img src="https://github.com/vandanadhakal/Zubers-Chicago-Ride-Sharing/blob/main/images.jpeg" width="450" height="350">
 
 ## Objective
-Analyze data from competitors to understand passenger preferences and the impact of weather on ride/ride frequency.
+Analyze data from competitors to **understand passenger preferences** and the **impact of weather on ride/ride frequency**.
 
 ## Summary
 Explored Zuber, a ride-sharing company in Chicago to understand the passenger preferences, impact of weather on ride frequency and duration in popular neighborhood.
@@ -40,6 +40,8 @@ This project was developed using PostgreSQL and involved the use of **JOINs**, *
 The analysis began by identifying the most popular taxi companies and calculating the total number of trips they provided during a representative week. To achieve this, the **Cabs** table was left joined with the **Trips** table to determine the total ride count for each cab company.
 
 The second part of the project explored the **impact of weather on ride volume** from the Loop neighborhood to O’Hare International Airport. Specifically, it compared the number of rides taken on **rainy and stormy Saturdays** versus more favorable weather. For this, the **Weather_Records** table was joined with the **Trips** table to capture weather conditions and classify them as either *“Good”* or *“Bad"*. Ride data for trips from the Loop to O’Hare on Saturdays was then extracted and analyzed in the context of these weather categories. Further, the total count of Good to Bad weather condition rides was determined.
+
+The 
 
 ### Conclusions
 1. Flash Cab and Taxi Affiliation Services emerged as the two most popular taxi companies.
