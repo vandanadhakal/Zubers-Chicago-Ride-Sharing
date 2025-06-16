@@ -34,13 +34,19 @@ The second part of the project explored the **impact of weather on ride volume**
 
 ## Conclusions
 ➔ Flash Cab and Taxi Affiliation Services emerged as the two most popular taxi companies.
+
 ➔ Together, they accounted for 23% of the total rides during the representative week analyzed.
+
 ➔ On Saturdays, rides from the Loop neighborhood to O’Hare International Airport showed a stark contrast: 888 rides during good weather vs. 180 rides during bad weather.
+
 ➔ The data suggests that customers are more likely to use ride-sharing services in favorable weather conditions.
+
 ➔ Offering promotions or discounts during inclement weather could be an effective strategy to increase ride volume for taxi companies.
-Assumption
-A representative time frame was selected to analyze and identify the top-performing taxi companies, with the assumption that this period is reflective of overall trends in the full dataset.
-Rain and storm conditions were classified as “Bad” weather, while all other weather conditions were categorized as “Good.”
+
+## Assumption
+1. A representative time frame was selected to analyze and identify the top-performing taxi companies, with the assumption that this period is reflective of overall trends in the full dataset.
+
+2. Rain and storm conditions were classified as “Bad” weather, while all other weather conditions were categorized as “Good.”
 
 
 
