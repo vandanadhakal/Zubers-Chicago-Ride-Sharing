@@ -41,7 +41,7 @@ The analysis began by identifying the most popular taxi companies and calculatin
 
 The second part of the project explored the **impact of weather on ride volume** from the Loop neighborhood to O’Hare International Airport. Specifically, it compared the number of rides taken on **rainy and stormy Saturdays** versus more favorable weather. For this, the **Weather_Records** table was joined with the **Trips** table to capture weather conditions and classify them as either *“Good”* or *“Bad"*. Ride data for trips from the Loop to O’Hare on Saturdays was then extracted and analyzed in the context of these weather categories. Further, the total count of Good to Bad weather condition rides was determined.
 
-The 
+The file with project SQL query can be found <a href='https://drive.google.com/file/d/1uKR7Zf2dsxrH19v1qutM0sndfqbU-dKf/view?usp=share_link'><u>here</u>.</a>   
 
 ### Conclusions
 1. Flash Cab and Taxi Affiliation Services emerged as the two most popular taxi companies.
