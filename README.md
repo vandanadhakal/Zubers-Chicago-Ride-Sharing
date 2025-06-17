@@ -1,4 +1,4 @@
-# Zuber Chicago Ride Sharing
+# Zuber Chicago Ride Sharing Database
 Analyzed ride-sharing data from Zuber to uncover passenger preferences and assess the impact of weather on ride frequency. Processed and queried data by joining relational tables, utilizing subqueries, aggregation, and slicing techniques to extract meaningful insights.
 
 <img src="https://github.com/vandanadhakal/Zubers-Chicago-Ride-Sharing/blob/main/images.jpeg" width="450" height="350">
