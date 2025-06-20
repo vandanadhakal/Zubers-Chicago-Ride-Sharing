@@ -35,7 +35,7 @@ The Databse Scheme:
 <img src="https://github.com/vandanadhakal/Zubers-Chicago-Ride-Sharing/blob/main/Table%20Scheme.png">
 
 ### Process
-This project was developed using PostgreSQL and involved the use of **JOINs**, **subqueries**, **CASE statements**, and other essential SQL clauses.
+This project is developed using PostgreSQL and involved the use of **JOINs**, **subqueries**, **CASE statements**, and other essential SQL clauses.
 
 The analysis began by identifying the most popular taxi companies and calculating the total number of trips they provided during a representative week. To achieve this, the **Cabs** table was left joined with the **Trips** table to determine the total ride count for each cab company.
 
