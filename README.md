@@ -57,7 +57,7 @@ The file with project SQL query can be found here: [`Zuber's Ride Sharing Projec
 ### Assumption
 1. A representative time frame is selected to analyze and identify the top-performing taxi companies, with the assumption that this period is reflective of overall trends in the full dataset.
 
-2. Rain and storm conditions were classified as *“Bad”* weather, while all other weather conditions were categorized as *“Good”*.
+2. Rain and storm conditions are classified as *“Bad”* weather, while all other weather conditions are categorized as *“Good”*.
 
 
 
